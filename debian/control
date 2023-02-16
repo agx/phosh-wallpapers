@@ -1,0 +1,21 @@
+Source: phosh-wallpapers
+Section: x11
+Priority: optional
+Maintainer: Guido Günther <agx@sigxcpu.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ meson,
+Standards-Version: 4.6.2
+Homepage: https://gitlab.gnome.org/guidog/phosh-wallpapers/
+Rules-Requires-Root: no
+
+Package: phosh-wallpapers
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: Wallpapers for Phosh
+ Wallpapers for Phosh intended for use on mobile phones as lockscreen
+ background. For docked usage some typical desktop sizes are provided as well.
+ .
+ The wallpapers work on other mobile and desktop environments e.g. as desktop
+ background too.

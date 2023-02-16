@@ -1,0 +1,15 @@
+<background>
+  <static>
+    <duration>8640000.0</duration>
+    <file>
+      <!-- Phone sizes -->
+      <size width="360" height="720">@imagesdir@/byzantium-abstract-720x1440.jpg</size>
+      <size width="720" height="1440">@imagesdir@/byzantium-abstract-720x1440.jpg</size>
+
+      <!-- Desktop sizes -->
+      <size width="1280" height="720">@imagesdir@/byzantium-abstract-1920x1080.jpg</size>
+      <size width="1920" height="1080">@imagesdir@/byzantium-abstract-1920x1080.jpg</size>      
+      <size width="3840" height="2160">@imagesdir@/byzantium-abstract-3840x2160.jpg</size>
+    </file>
+  </static>
+</background>
