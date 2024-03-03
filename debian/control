@@ -19,3 +19,21 @@ Description: Wallpapers for Phosh
  .
  The wallpapers work on other mobile and desktop environments e.g. as desktop
  background too.
+
+Package: plymouth-theme-phosh
+Architecture: all
+Depends:
+ ${misc:Depends},
+ plymouth,
+ plymouth-label,
+Provides:
+ plymouth-theme,
+Description: boot animation, logger and I/O multiplexer - Phosh theme
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package provides the default Phosh theme.

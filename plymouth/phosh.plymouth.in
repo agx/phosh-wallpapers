@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Phosh
+Description=A theme for mobile devices using Phosh
+ModuleName=script
+
+[script]
+ImageDir=@themedir@
+ScriptFile=@themedir@/phosh.script

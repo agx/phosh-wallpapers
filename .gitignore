@@ -3,3 +3,7 @@ debian/debhelper-build-stamp
 debian/files
 debian/phosh-wallpapers.substvars
 debian/phosh-wallpapers/
+debian/plymouth-theme-phosh.postinst.debhelper
+debian/plymouth-theme-phosh.prerm.debhelper
+debian/plymouth-theme-phosh/
+debian/tmp/
