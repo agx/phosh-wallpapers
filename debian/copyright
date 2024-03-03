@@ -6,6 +6,10 @@ Files: wallpapers/byzantium-abstract-*.jpg
 Copyright: 2022 François Téchené
 License: CC-BY-SA-4
 
+Files: wallpapers/log-*.jpg
+Copyright: 2022 Guido Günther
+License: CC-BY-SA-4
+
 Files:
  debian/*
  wallpapers/*.xml.in

@@ -2,6 +2,7 @@ images = [
   'byzantium-abstract-1920x1080.jpg',
   'byzantium-abstract-3840x2160.jpg',
   'byzantium-abstract-720x1440.jpg',
+  'logo-3840x2160.svg',
 ]
 
 install_data(images, install_dir: imagesdir)
@@ -11,6 +12,7 @@ conf.set('imagesdir', imagesdir)
 
 backgrounds = [
   'byzantium-abstract',
+  'logo',
 ]
 
 foreach background : backgrounds
