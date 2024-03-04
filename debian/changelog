@@ -1,3 +1,18 @@
+phosh-wallpapers (0.37.0) experimental; urgency=medium
+
+  * Add phosh logo wallpaper.
+    As per request in https://gitlab.gnome.org/World/Phosh/phosh/-/merge_requests/1294#note_1796767
+  * wallpapers: Add install file.
+    We'll add more packages so we need to specify what to install
+  * Add initial plymouth theme.
+    The (non logo) artwork is from the Mobian theme which in turn is based
+    on the Librem 5 theme.
+    To enable add
+      "splash plymouth.ignore-serial-consoles"
+    to the kernel's command line
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 04 Mar 2024 13:41:20 +0100
+
 phosh-wallpapers (0.30.0) experimental; urgency=medium
 
   * Initial release

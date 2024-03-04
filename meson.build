@@ -1,5 +1,5 @@
 project('phosh-wallpapers',
-  version: '0.25.0',
+  version: '0.37.0',
   meson_version: '>= 0.56.2'
 )
 
