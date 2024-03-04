@@ -1,0 +1,4 @@
+Name: default.plymouth
+Link: /usr/share/plymouth/themes/default.plymouth
+Alternative: /usr/share/plymouth/themes/phosh/phosh.plymouth
+Priority: 90

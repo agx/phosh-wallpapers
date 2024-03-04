@@ -6,7 +6,13 @@ Files: wallpapers/byzantium-abstract-*.jpg
 Copyright: 2022 François Téchené
 License: CC-BY-SA-4
 
-Files: wallpapers/log-*.jpg
+Files: plymouth/*
+Copyright: 2020 Purism, SPC
+           2020 Arnaud Ferraris <aferraris@debian.org>
+License: GPL-3.0-or-later
+
+Files: wallpapers/logo-*.jpg
+       plymouth/logo.png
 Copyright: 2022 Guido Günther
 License: CC-BY-SA-4
 
