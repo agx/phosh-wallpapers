@@ -2,6 +2,10 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: phosh-wallpapers
 Source: https://gitlab.gnome.org/guidog/phosh-wallpapers
 
+Files: *
+Copyright: 2023 Guido Günther <aagx@sigxcpu.org>
+License: GPL-3+
+
 Files: wallpapers/byzantium-abstract-*.jpg
 Copyright: 2022 François Téchené
 License: CC-BY-SA-4
@@ -9,22 +13,24 @@ License: CC-BY-SA-4
 Files: plymouth/*
 Copyright: 2020 Purism, SPC
            2020 Arnaud Ferraris <aferraris@debian.org>
-License: GPL-3.0-or-later
+License: GPL-3+
 
-Files: wallpapers/logo-*.jpg
-       plymouth/logo.png
+Files: wallpapers/*logo*
+       plymouth/*logo*
 Copyright: 2022 Guido Günther
 License: CC-BY-SA-4
 
-Files:
- debian/*
- wallpapers/*.xml.in
- *.doap
- wallpapers/meson.build
- meson.build
- README.md
-Copyright: 2023 Guido Günther <aagx@sigxcpu.org>
-License: GPL-3+
+Files: sounds/stereo/message-new-*.oga
+Copyright: Baptiste Gelez
+License: CC0
+
+Files: sounds/stereo/*-incoming-call.oga
+Copyright: Feandesign
+License: CC0
+
+Files: sounds/stereo/system-ready.oga
+Copyright: Antonio Paternina Alvarez
+License: CC-BY-SA-4
 
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
@@ -356,3 +362,18 @@ License: CC-BY-SA-4
     limitation upon, or waiver of, any privileges and immunities that apply to
     the Licensor or You, including from the legal processes of any jurisdiction
     or authority.
+
+License: CC0
+ CC0 1.0 Universal
+ .
+     CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+     LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+     ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+     INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+     REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+     PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+     THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+     HEREUNDER.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/CC0-1.0".

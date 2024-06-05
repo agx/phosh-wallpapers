@@ -37,3 +37,16 @@ Description: boot animation, logger and I/O multiplexer - Phosh theme
  password prompts for encrypted file systems.
  .
  This package provides the default Phosh theme.
+
+Package: sound-theme-phosh
+Architecture: all
+Depends:
+ ${misc:Depends},
+Recommends:
+ sound-theme-freedesktop,
+Description: Phosh sound theme
+ The default sound theme for Phosh following the XDG theming
+ specification. It contains sounds for phone related events
+ and can e.g. be used to amend the freedesktop.org sound
+ theme.
+ 
