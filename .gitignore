@@ -5,5 +5,8 @@ debian/phosh-wallpapers.substvars
 debian/phosh-wallpapers/
 debian/plymouth-theme-phosh.postinst.debhelper
 debian/plymouth-theme-phosh.prerm.debhelper
+debian/plymouth-theme-phosh.substvars
 debian/plymouth-theme-phosh/
+debian/sound-theme-phosh.substvars
+debian/sound-theme-phosh/
 debian/tmp/
